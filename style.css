@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;0,1000;1,200&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+:root {
+    --green: #2bc86c;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+html {
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 5%;
+}
+section:nth-child(even){
+    background: #eee;
+}
+.heading {
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.sub-heading {
+    text-align: center;
+    color: var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    color: #fff;
+    background-color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background-color: var(--green);
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.loader-container img{
+    width: 10rem;
+}
+.fade-out{
+    top: 110%;
+    opacity: 0;
+}
+
+/* Media Queries */
+@media (max-width:1200px) {
+    html {
+        font-size: 50%;
+    }
+
+    header {
+        padding: 1rem 1rem;
+    }
+    #home .home-slider .slide .content h3{
+        font-size: 5rem;
+    }
+}
+@media (max-width:1020px) {
+    #review .slide {
+        height: 25rem;
+        padding: 2rem 4rem;
+    }
+    #review{
+        width: 90%;
+    }
+}
+@media (max-width:850px) {
+    header .icons #menu-bars {
+        display: inline-block;
+    }
+    header #navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        background: #fff;
+        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+    }
+    header #navbar.active{
+        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+    }
+    header #navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background-color: #eee;
+    }
+    #review .slide .fa-quote-right {
+        top: 2rem;
+        right: 5rem;
+        font-size: 3rem;
+    }   
+}
+@media (max-width:750px){
+    #about .row .content{
+        padding-left:0;
+    }
+    #home .home-slider .slide .image img {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width:650px){
+    #menu .box-container {
+        gap: 2rem;
+    }
+    html {
+        font-size: 40%;
+    }
+}
+@media (max-width:500px) {
+    #search-form #search-box{
+        width: 70%;
+    }
+    #home .home-slider .slide .content h3{
+        font-size: 3rem;
+    }
+    #home .home-slider .slide .content span{
+        font-size: 2rem;
+    }
+    #home .home-slider .slide .content p{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        padding-right: 1rem;
+    }
+    .btn{
+        margin-top: 0.5rem;
+        font-size: 2rem;
+        padding: 0.6rem 2rem;
+        border-radius: 0.5rem;
+    }
+    #menu{
+        padding: 3rem 7rem;
+    }
+    #review .slide {
+        height: 28rem;
+        padding: 2rem 3rem;
+    }
+    #review .slide .fa-quote-right {
+        top: 2rem;
+        right: 3rem;
+        font-size: 2rem;
+    } 
+    #order form .input-box .input {
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    #dishes .box-container {
+        gap: 2rem;
+    }
+}
+@media (max-width:400px) {
+    section{
+        padding: 1rem 3%;
+    } 
+    #dishes .box-container {
+        gap: 1rem;
+    }
+}
+@media (max-width:380px) {
+    #review .slide {
+        height: 32rem;
+        padding: 2rem 2rem;
+    }
+    #menu{
+        padding: 3rem 5rem;
+    }
+}
+@media (max-width:325px) {
+    #menu{
+        padding: 2rem 1rem;
+    }
+    #menu .box-container {
+        gap: 1rem;
+    }
+}
+@media (max-width:300px) {
+    #review .slide {
+        height: 35rem;
+        padding: 1rem 1rem;
+    }
+}

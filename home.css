@@ -1,0 +1,30 @@
+#home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 2rem;
+}
+#home .home-slider .slide .content{
+    flex: 1 1 45rem;
+}
+#home .home-slider .slide .image{
+    flex: 1 1 45rem;
+}
+#home .home-slider .slide .content span{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+#home .home-slider .slide .content h3{
+    color: var(--black);
+    font-size: 7rem;
+}
+#home .home-slider .slide .content p{
+    color: var(--light-color);
+    font-size: 2rem;
+    padding: 1rem 0;
+    padding-right: 1rem;
+}
+#home .home-slider .slide .image img{
+    width: 100%;
+}

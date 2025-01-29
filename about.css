@@ -1,0 +1,53 @@
+#about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+#about .row .image{
+    flex: 1 1 45rem;
+}
+#about .row .image img{
+    width: 100%;
+}
+#about .row .content{
+    flex: 1 1 45rem;
+    padding-left:2rem;
+}
+#about .row .content h3{
+    color: var(--black);
+    font-size: 4rem;
+    padding: 0.5rem 0;
+}
+#about .row .content p{
+    color: var(--light-color);
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+#about .row .content .icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+}
+#about .row .content .icon-container .icons{
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 0.1rem solid #00000020;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 15rem;
+}
+#about .row .content .icon-container .icons i{
+    font-size: 2rem;
+    color: var(--green);
+}
+#about .row .content .icon-container .icons span{
+    font-size: 1.5rem;
+    color: var(--black);
+}

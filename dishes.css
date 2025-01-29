@@ -1,0 +1,81 @@
+#dishes .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 2fr));
+    gap: 3rem;
+}
+#dishes .box {
+    padding: 2rem;
+    background: #fff;
+    border: 0.1rem solid #00000030;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.box .fa-heart,
+.fa-eye {
+    position: absolute;
+    top: 2rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    color: var(--black);
+    background: #eee;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.box .fa-heart {
+    opacity: 0;
+    right: 1.5rem;
+}
+
+.box .fa-eye {
+    opacity: 0;
+    left: 1.5rem;
+    line-height: 5rem;
+}
+
+.box:hover .fa-heart {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.box:hover .fa-eye {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.box .fa-heart:hover,
+.fa-eye:hover {
+    color: #fff;
+    background: var(--green);
+}
+
+.box img {
+    height: 25rem;
+    width: 25rem;
+    margin: 1rem 0;
+}
+#dishes .box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.box .stars{
+    padding: 1rem 0;
+}
+.box .stars i{
+    font-size: 1.7rem ;
+    color: var(--green);
+}
+.box span{
+    font-size: 2rem;
+    color: var(--green);
+    margin-right: 2rem;
+    font-weight: 600;
+}
+.box .btn{
+    padding: 0.8rem 2rem;
+}

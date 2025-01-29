@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="dishes.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header>
+        <a href="/" class="logo">
+            Restaurant<i class="fa fa-cutlery"></i>
+        </a>
+        <nav id="navbar" class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-bars" id="menu-bars"></i>
+            <i class="fa fa-search" id="search-icon"></i>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- Header section ends  -->
+
+    <!-- Search Form starts -->
+    <form action="/" id="search-form">
+        <input type="search" name="" placeholder="Search here.." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fa fa-times" id="close"></i>
+    </form>
+    <!-- Search Form ends -->
+
+    <!-- Home section Starts -->
+    <section id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Panner Masala</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sed a error officia nesciunt.
+                            Qui.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/Slide_bar/Panner.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Hot Pasta</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sed a error officia nesciunt.
+                            Qui.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/Slide_bar/Pasta.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Dishes</span>
+                        <h3>Mexican Pizza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sed a error officia nesciunt.
+                            Qui.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./Assets/Slide_bar/Pizza.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Home section Ends -->
+
+    <!-- Dishes section starts  -->
+    <section id="dishes">
+        <h3 class="sub-heading">Our Dishes</h3>
+        <h1 class="heading">Popular Dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-1.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-2.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-3.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-4.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-5.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fa fa-heart"></a>
+                <a href="#" class="fa fa-eye"></a>
+                <img src="./Assets/Food/Food-6.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <span>$18.90</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Dishes section ends  -->
+
+    <!-- About section starts -->
+    <section id="about">
+        <h3 class="sub-heading">About us</h3>
+        <h1 class="heading">Why to choose us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="./Assets/Food/Food-7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Best Food in the country</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci error corporis velit accusantium
+                    totam ullam non quia. Corrupti ullam harum facilis unde dicta libero nostrum porro? Ex
+                    obcaecatidicta nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi.</p>
+                <div class="icon-container">
+                    <div class="icons">
+                        <i class="fa fa-truck"></i>
+                        <span>Fast Shipping</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa fa-inr"></i>
+                        <span>Easy Payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fa fa-globe"></i>
+                        <span>24/7 Service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Menu section starts  -->
+    <section id="menu">
+        <h3 class="sub-heading">Our Menu</h3>
+        <h1 class="heading">Today's Special</h1>
+        <div class="box-container">
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/1.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+             
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food </h3>
+        
+                                            <a href="#" class="btn">Add to cart</a>
+                   <P></P> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/2.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/3.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/4.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/5.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/6.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/7.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/8.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="boxM">
+                <div class="image">
+                    <img src="./Assets/Menu/9.png" alt="">
+                    <a href="#" class="fa fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae laborum voluptate
+                        velit explicabo odio.</p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu section ends  -->
+
+    <!-- Review section starts  -->
+    <section id="review">
+        <h3 class="sub-heading">Customer's Rewiew</h3>
+        <h1 class="heading">What they say about us</h1>
+        <div class="swiper review-Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fa fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./Assets/Users/1.png" alt="">
+                        <div class="user-info">
+                            <h3>Vedant Modi</h3>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident consectetur deserunt
+                        maxime et reiciendis voluptas magni voluptatum aut voluptatem perspiciatis maiores,
+                        illum,dolore, ipsa esse velit soluta labore? Vitae!</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fa fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./Assets/Users/2.png" alt="">
+                        <div class="user-info">
+                            <h3>Divyesh Parmar</h3>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident consectetur deserunt
+                        maxime et reiciendis voluptas magni voluptatum aut voluptatem perspiciatis maiores,
+                        illum,dolore, ipsa esse velit soluta labore? Vitae!</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fa fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./Assets/Users/3.png" alt="">
+                        <div class="user-info">
+                            <h3>Deep Sorthiya</h3>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident consectetur deserunt
+                        maxime et reiciendis voluptas magni voluptatum aut voluptatem perspiciatis maiores,
+                        illum,dolore, ipsa esse velit soluta labore? Vitae!</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fa fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./Assets/Users/4.png" alt="">
+                        <div class="user-info">
+                            <h3>Devansh Varia</h3>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident consectetur deserunt
+                        maxime et reiciendis voluptas magni voluptatum aut voluptatem perspiciatis maiores,
+                        illum,dolore, ipsa esse velit soluta labore? Vitae!</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+    </section>
+    <!-- Review section ends  -->
+
+    <!-- Order section starts  -->
+    <section id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">Fast and Free service</h1>
+        <form action="/">
+            <div class="input-box">
+                <div class="input">
+                    <span>Your name:</span>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                    <span>Your number:</span>
+                    <input type="number" name="number" placeholder="Enter your number">
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input">
+                    <span>Your order:</span>
+                    <input type="text" name="order" placeholder="Enter your order">
+                </div>
+                <div class="input">
+                    <span>Additional items:</span>
+                    <input type="text" name="additional" placeholder="Enter here">
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input">
+                    <span>How much:</span>
+                    <input type="number" name="quantity" placeholder="Number of order">
+                </div>
+                <div class="input">
+                    <span>Date and Time:</span>
+                    <input type="datetime-local" name="date_time">
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input">
+                    <span>Address:</span>
+                    <textarea name="address" id="" cols="30" rows="5" placeholder="Enter your address"></textarea>
+                </div>
+                <div class="input">
+                    <span>Message:</span>
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Enter your message here"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+    </section>
+    <!-- Order section ends  -->
+
+    <!-- Footer section starts  -->
+    <section id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">India</a>
+                <a href="#">Japan</a>
+                <a href="#">USA</a>
+                <a href="#">Germany</a>
+                <a href="#">Australia</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links to this page</h3>
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Review</a>
+                <a href="#order">Order</a>
+            </div>
+            <div class="box">
+                <h3>Feel free to contact</h3>
+                <a href="#">+123-456-7899</a>
+                <a href="#">+112-556-7878</a>
+                <a href="#" style="text-transform: none;">vedantmodi13@gmail.com</a>
+                <a href="#" style="text-transform: none;">devanshvariya12@gmail.com</a>
+                <a href="#">Gujrat, India  (-391410)</a>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linked in</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="credit">Copyright @ 2024 by <span>Vedant Modi</span></div>
+    </section>
+    <!-- Footer section ends  -->
+
+    <!-- Loader part  -->
+    <div class="loader-container">
+        <img src="./Assets/Loading.gif" alt="">
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/0ceed466fd.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> <!-- Swiper JS  -->
+<script src="./index.js"></script>
+
+</html>
